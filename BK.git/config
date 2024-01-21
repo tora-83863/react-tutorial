@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "react-tutorial"]
+	url = https://github.com/tora-83863/react-tutorial.git
+	fetch = +refs/heads/*:refs/remotes/react-tutorial/*
+[branch "main"]
+	remote = react-tutorial
+	merge = refs/heads/main
+[remote "origin"]
+	url = https://github.com/tora-83863/react-tutorial.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
