@@ -150,7 +150,7 @@ export default function App() {
           <Typography variant="h6">都道府県別人口推移</Typography>
         </Toolbar>
       </MuiAppBar>
-      <Box sx={{ flexGrow: 1, height: "100vh", overflow: "auto" }}>
+      <Box sx={{ flexGrow: 1, height: "97vh", overflow: "auto" }}>
         <Toolbar />
         <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
           <Grid container spacing={3}>
